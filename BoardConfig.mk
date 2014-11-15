@@ -20,8 +20,8 @@
 # definition file).
 #
 
-# inherit from common JF
--include device/samsung/jf-common/BoardConfigCommon.mk
+# inherit from common jf
+include device/samsung/jf-common/BoardConfigCommon.mk
 
 # inherit from the proprietary version
 -include vendor/samsung/jfltetmo/BoardConfigVendor.mk
