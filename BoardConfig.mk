@@ -29,5 +29,9 @@ include device/samsung/jf-common/BoardConfigCommon.mk
 # Assert
 TARGET_OTA_ASSERT_DEVICE := jfltetmo,jflte
 
+# Partitions
+BOARD_SYSTEMIMAGE_PARTITION_SIZE := 2894069760
+BOARD_CACHEIMAGE_PARTITION_SIZE := 2170552320
+
 # Properties
 TARGET_SYSTEM_PROP += device/samsung/jfltetmo/system.prop
